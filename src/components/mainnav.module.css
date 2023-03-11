@@ -59,7 +59,9 @@ li{
 
     .nav nav{
         width: 80px;
+        background-color: rgb(0, 0, 0, 0.9);
         height: 40px;
+        
     }
 
     .nav li{
