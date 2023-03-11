@@ -24,23 +24,22 @@
     visibility: visible;
     width: 100vw;
     opacity: 1;
-    transition: opacity 1s ease-in-out;
   }
   
     
   .preloader-container {
     display: flex;
     justify-content: center;
-    width: 0%;
+    width: 0px;
+    overflow: hidden;
     align-items: center;
+    opacity: 0.1;
     height: 110vh;
     z-index: 29320899;
     position: fixed;
     top: 0px;
     background-color: black; /* adjust the background color to your liking */
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 1s linear 1s;
+    transition: width 0.4s linear, opacity 0.2s linear;
     /* the transition delay should be equal to the duration of the appear animation */
   }
   
