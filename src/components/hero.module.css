@@ -1,11 +1,12 @@
 .wrapdiv{
     background-color: rgb(0, 0, 0);
+    padding-bottom: 10vh;
 }
 
 .hero{
     background: url(../img/bg2.png) left top no-repeat, url(../img/bg1.png) right bottom no-repeat;
     background-size: 79vw, 40vw;
-    height: 100vh;
+    height: 90vh;
     color: white;
 }
 
@@ -13,7 +14,7 @@
     width: max-content;
     height: max-content;
     margin: auto;
-    padding-top: 37vh;
+    padding-top: 35vh;
 }
 
 .hero .button button{
@@ -64,7 +65,7 @@
         padding: 0px 0px;
         background: url(../img/bg2.png) left top no-repeat, url(../img/bg1.png) right bottom no-repeat;
         background-size: 79vw, 40vw;
-        height: 100vh;
+        height: 90vh;
         width: 80vw;
         margin: 0% 5%;
         color: white;
@@ -95,5 +96,12 @@
         color: grey;
         font-size: 12.5px;
         padding: 1px 0px;
+    }
+}
+
+
+@media screen  and (max-width:500px){
+    .hero{
+        background-size: 80vw, 100vw;
     }
 }
