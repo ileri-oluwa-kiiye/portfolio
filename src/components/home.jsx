@@ -1,10 +1,12 @@
-import Preloader from "./preloader";
+// import Preloader from "./preloader";
+import Mainnav from "./mainnav";
 import Hero from "./hero";
 
 const Home = () =>{
     return(
         <div>
-            <Preloader />
+            {/* <Preloader /> */}
+            <Mainnav />
             <Hero/>
         </div>
     )
