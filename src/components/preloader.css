@@ -4,19 +4,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 270px; /* adjust the width to your liking */
-    height: 270px; /* adjust the height to your liking */
+    width: 270px; 
+    height: 270px; 
     border-radius: 50%;
+    margin-top: -140px;
     color: white;
-    background-color: grey; /* adjust the background color to your liking */
-    animation: pulse 1s ease-in-out infinite; /* add an animation to the preloader */
+    background-color: grey; 
+    animation: pulse 1s ease-in-out infinite; 
   }
   
   .text {
-    font-family: 'YourFeminineFont', cursive; /* replace 'YourFeminineFont' with the name of your chosen font */
-    font-size: 36px; /* adjust the font size to your liking */
-    color: white; /* adjust the color to your liking */
-    animation: appear 1s linear; /* add an animation to the text */
+    font-family: 'YourFeminineFont', cursive; 
+    font-size: 36px; 
+    color: white; 
+    animation: appear 1s linear; 
   }
 
   .preloader-container.show {
