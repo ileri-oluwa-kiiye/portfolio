@@ -1,0 +1,99 @@
+.wrapdiv{
+    background-color: rgb(0, 0, 0);
+}
+
+.hero{
+    background: url(../img/bg2.png) left top no-repeat, url(../img/bg1.png) right bottom no-repeat;
+    background-size: 79vw, 40vw;
+    height: 100vh;
+    color: white;
+}
+
+.hero .text{
+    width: max-content;
+    height: max-content;
+    margin: auto;
+    padding-top: 37vh;
+}
+
+.hero .button button{
+    outline: none;
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    margin: 10px 20px;
+    margin-left: 0px;
+}
+
+.hero .button button:hover{
+    background-color: grey;
+    border: 1px solid white;
+}
+
+.hero h4{
+    color: grey;
+    padding: 5px 0px;
+}
+
+.hero h1{
+    margin-bottom: 15px;
+    font-size: 45px;
+}
+
+.button{
+    margin-top: 10px;
+}
+
+
+
+.button img{
+    height: 11px;
+    margin: 0px 10px;
+}
+
+.button button.first{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+
+@media screen and (max-width:1000px) {
+
+    .hero{
+        padding: 0px 0px;
+        background: url(../img/bg2.png) left top no-repeat, url(../img/bg1.png) right bottom no-repeat;
+        background-size: 79vw, 40vw;
+        height: 100vh;
+        width: 80vw;
+        margin: 0% 5%;
+        color: white;
+    }
+
+    .button{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text{
+        max-width: 90vw;
+    }
+
+    .hero h1{
+        margin-bottom: 15px;
+        font-size: 25px;
+    }
+    .hero .button button{
+        width: 160px;
+        font-size: 12px;
+        height: 40px;
+        margin: 10px 20px;
+        margin-left: 0px;
+    }
+
+    .hero h4{
+        color: grey;
+        font-size: 12.5px;
+        padding: 1px 0px;
+    }
+}
