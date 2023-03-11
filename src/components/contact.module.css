@@ -1,0 +1,24 @@
+.wrapdiv{
+    background-color: black;
+    color: white;
+    padding: 10vh 5vw;
+    width: 90vw;
+    height: 80vh;
+}
+
+.img{
+    position: fixed;
+    top: 0%;
+}
+
+.contact{
+    background: url(../img/contact.png) left top no-repeat, url(../img/bgcontact.png) right top no-repeat;
+    background-size: 10vw, 40vw;
+    height: 90vh;
+    color: white;
+}
+
+.main{
+    background-color: rgb(255, 255, 255, 0.2);
+    margin-top: 10vh;
+}

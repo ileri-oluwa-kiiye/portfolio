@@ -34,7 +34,7 @@ function Preloader() {
   function handleLoadTwo() {
     setTimeout(() => {
       setShowPreloader(false);
-    }, 4000); // add a 1 second delay before hiding the preloader
+    }, 3000); // add a 1 second delay before hiding the preloader
   }
   handleLoadTwo()
 
