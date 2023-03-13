@@ -11,12 +11,12 @@
 }
 
 .about{
-    background: linear-gradient(139.66deg, #ff70f0 -17.01%, rgba(0, 0, 0, 0.25) 81.18%);
+    background: linear-gradient(139.66deg, #645b63 -17.01%, rgba(36, 36, 36, 0.25) 81.18%);
     width: 450px;
-    height: 450px;
     text-align: center;
-    border-radius: 50px;
-    margin: auto;
+    border-radius: 100px;
+    padding: 4vh 0px;
+    margin: 40px auto;
     color: rgb(255, 255, 255);
 }
 
@@ -24,8 +24,12 @@
     max-width: 100px;
 }
 
+.wrap img{
+    padding-top: vh;
+}
+
 .about .content{
-    max-width: 85vw;
+    max-width: 83vw;
     width: 350px;
     font-size: 15px;
     letter-spacing: 0.1em;
@@ -40,6 +44,11 @@
     .about .content{
         font-size: 13px;
         padding: 30px ;
+    }
+
+    .wrap img{
+        padding-top: 5vh;
+        width: 100px;
     }
 
     .about{
