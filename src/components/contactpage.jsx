@@ -1,4 +1,5 @@
 import styles from "./contact.module.css"
+import message from "../img/message.png"
 
 
 const Contactpage = () =>{
@@ -9,13 +10,18 @@ const Contactpage = () =>{
                     <div className={styles.main}>
                         <div>
                             <h2>Get in touch</h2>
-                            <p> 
+                            <p>
                                 I am very approachable, I would 
                                 love to hear from you. Feel free to 
                                 email me or contact me on my social
-                                media accounts 
+                                media accounts.
                             </p>
                             <p>Thank you for your time.</p>
+                            <div className={styles.message}>
+                                <img src={message} alt="" />
+                                <p>aboladeilerioluwakiiye@gmail.com</p>
+                            </div>
+
                         </div>
                         <div>
                             <h2>Send me a message</h2>

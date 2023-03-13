@@ -9,14 +9,14 @@
     border-radius: 50%;
     margin-top: -140px;
     color: white;
-    background-color: grey; 
+    background-color: rgb(255, 255, 255, 0.9); 
     animation: pulse 1s ease-in-out infinite; 
   }
   
   .text {
     font-family: 'YourFeminineFont', cursive; 
     font-size: 36px; 
-    color: white; 
+    color: #ff70f0; 
     animation: appear 1s linear; 
   }
 
