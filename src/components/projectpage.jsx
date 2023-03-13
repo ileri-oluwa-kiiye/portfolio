@@ -17,8 +17,8 @@ const Projectpage = () =>{
                     <div>
                         <div className="flexdesktop">
                             <div>
-                                <h3 data-aos="zoom-in">Crappo App</h3>
-                                <p data-aos="zoom-in">
+                                <h3 data-aos="zoom-in"  data-aos-duration="1000">Crappo App</h3>
+                                <p data-aos="zoom-in"  data-aos-duration="1000">
                                     An imaginary cryptocurrency website.<br/>
                                     Technologies utilized: HTML, CSS, BootStrap, AOS library, JavaScript, Git $ GitHub, Terminal.
                                 </p>
@@ -33,8 +33,8 @@ const Projectpage = () =>{
                         </div>
                         <div className="flexdesktop rowreverse">
                             <div>
-                                <h3 data-aos="zoom-in">Fin-traka Web App</h3>
-                                <p data-aos="zoom-in">
+                                <h3 data-aos="zoom-in"  data-aos-duration="1000">Fin-traka Web App</h3>
+                                <p data-aos="zoom-in"  data-aos-duration="1000">
                                     A book-keeping web app.<br/>
                                     Technologies utilized: React, Nivo Library, Recharts, Git $ GitHub, Terminal.
                                 </p>
@@ -49,8 +49,8 @@ const Projectpage = () =>{
                         </div>
                         <div className="flexdesktop">
                             <div>
-                                <h3 data-aos="zoom-in">Cruvbet</h3>
-                                <p data-aos="zoom-in">
+                                <h3 data-aos="zoom-in"  data-aos-duration="1000">Cruvbet</h3>
+                                <p data-aos="zoom-in"  data-aos-duration="1000">
                                     An imaginary website for CRUVBET.<br/>
                                     Technologies utilized: HTML, CSS, JavaScript, Git$GitHub, Terminal.
                                 </p>
@@ -65,10 +65,10 @@ const Projectpage = () =>{
                         </div>
                     </div>
                     <div>
-                        <div className="flexdesktop">
+                        <div className="flexdesktop rowreverse">
                             <div>
-                                <h3 data-aos="zoom-in">Ecommerce</h3>
-                                <p data-aos="zoom-in">
+                                <h3 data-aos="zoom-in"  data-aos-duration="1000">Ecommerce</h3>
+                                <p data-aos="zoom-in"  data-aos-duration="1000">
                                     An ecommerce website for an imaginary company.<br/>
                                     Technologies utilized: HTML, CSS JavaScript, Git $ GitHub, Terminal.
                                 </p>
@@ -81,10 +81,10 @@ const Projectpage = () =>{
                                 <img src={ecommerce} alt="Invest Smart" data-aos="zoom-in" data-aos-duration="2000"/>
                             </div>
                         </div>
-                        <div className="flexdesktop rowreverse">
+                        <div className="flexdesktop">
                             <div>
-                                <h3 data-aos="zoom-in">Questio Web App</h3>
-                                <p data-aos="zoom-in">
+                                <h3 data-aos="zoom-in"  data-aos-duration="1000">Questio Web App</h3>
+                                <p data-aos="zoom-in"  data-aos-duration="1000">
                                     An app for accessing past questions online.<br/>
                                     Technologies utilized: HTML, CSS JavaScript, Git $ GitHub, Terminal.
                                 </p>
@@ -97,10 +97,10 @@ const Projectpage = () =>{
                                 <img src={questio} alt="Detailed Statistics" data-aos="zoom-in" data-aos-duration="2000"/>
                             </div>
                         </div>
-                        <div className="flexdesktop">
+                        <div className="flexdesktop rowreverse">
                             <div>
-                                <h3 data-aos="zoom-in">To-do List</h3>
-                                <p data-aos="zoom-in">
+                                <h3 data-aos="zoom-in"  data-aos-duration="1000">To-do List</h3>
+                                <p data-aos="zoom-in"  data-aos-duration="1000">
                                     A to do list<br/>
                                     Technologies utilized: HTML, CSS, JavaScript, Git$GitHub, Terminal.
                                 </p>

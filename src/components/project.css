@@ -51,12 +51,14 @@
     width: 470px;
     max-width: 81vw;
     max-height: 47vw;
+    box-shadow: none;
     height: 260px;
+    transition: box-shadow 0.6s ease;
 }
 
 .portfolio img:hover{
-    box-shadow: 7px 7px 14px#696969,
-                -7px -7px 14px #adadad;
+    box-shadow: 5px 5px 10px rgba(132, 132, 132, 0.9),
+                -5px -5px 10px rgba(125, 125, 125, 0.9);
 }
 
 .rowreverse{
@@ -78,7 +80,7 @@ img{
 .portfolio a{
     margin-right: 30px;
     color: #bc4b4b;
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
 }
 
 .portfolio a:hover{

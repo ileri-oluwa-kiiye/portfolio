@@ -23,6 +23,7 @@
     width: 200px;
     height: 50px;
     margin: 10px 20px;
+    transition: all 0.3s ease;
     margin-left: 0px;
 }
 
