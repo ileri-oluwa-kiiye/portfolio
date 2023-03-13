@@ -4,8 +4,8 @@
 }
 
 .hero{
-    background: url(../img/bg2.png) left top no-repeat, url(../img/bg1.png) right bottom no-repeat;
-    background-size: 79vw, 40vw;
+    background: url(../img/bg1.png) left top no-repeat, url(../img/bg1.png) right bottom no-repeat;
+    background-size: 45vw, 40vw;
     height: 90vh;
     color: white;
 }
@@ -64,8 +64,8 @@
 
     .hero{
         padding: 0px 0px;
-        background: url(../img/bg2.png) left top no-repeat, url(../img/bg1.png) right bottom no-repeat;
-        background-size: 79vw, 40vw;
+        background: url(../img/bg1.png) left top no-repeat, url(../img/bg1.png) right bottom no-repeat;
+        background-size: 50vw, 40vw;
         height: 90vh;
         width: 80vw;
         margin: 0% 5%;
