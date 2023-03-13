@@ -13,7 +13,7 @@ function Preloader() {
       } else {
         setText(prevText => prevText + loadingText.charAt(prevText.length));
       }
-    }, 200); // adjust the speed here
+    }, 150); // adjust the speed here
 
     return () => clearInterval(interval);
   }, [text]);

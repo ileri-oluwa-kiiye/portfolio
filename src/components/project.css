@@ -21,10 +21,13 @@
 }
 
 .portfolio .flexdesktop p{
-    font-size: 12px;
+    font-size: 13px;
     color: rgb(156, 163, 175);
     line-height: 16px;
     padding-bottom: 20px;
+    max-width: 360px;
+    line-height:25px;
+    letter-spacing: 0.01em;
 }
 
 .portfolio .flexdesktop{
@@ -36,6 +39,7 @@
     padding: 0px 10%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 9vw;
     font-size: 1.5em;
     font-weight: 400;
     text-align: center;
@@ -68,6 +72,21 @@
 
 img{
     max-width: 91%;
+}
+
+
+.portfolio a{
+    margin-right: 30px;
+    color: #bc4b4b;
+    transition: all 0.2s ease;
+}
+
+.portfolio a:hover{
+    color: white;
+}
+
+.portfolio a:active{
+    color: blue;
 }
 
 @media screen and (max-width:1000px) {
