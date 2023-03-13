@@ -1,5 +1,6 @@
 import styles from "./contact.module.css"
 import message from "../img/message.png"
+import Footer from "./footer"
 
 
 const Contactpage = () =>{
@@ -34,6 +35,7 @@ const Contactpage = () =>{
                             </div>
                         </div>
                     </div>
+                    <div><Footer /></div>
                 </div>
             </div>
         </div>
