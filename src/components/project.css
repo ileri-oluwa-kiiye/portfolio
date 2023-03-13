@@ -1,0 +1,77 @@
+.portfolio{
+    padding: 10vh 5vw;
+    padding-top: 90px;
+    background-color: black;
+    color: white;
+}
+
+.flexdesktop{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 2vw;
+    margin: auto;
+}
+
+.portfolio .flexdesktop h3{
+    font-weight: 600;
+    line-height: 32px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.portfolio .flexdesktop p{
+    font-size: 12px;
+    color: rgb(156, 163, 175);
+    line-height: 16px;
+    padding-bottom: 20px;
+}
+
+.portfolio .flexdesktop{
+    margin: 5% 0px;
+}
+
+.portfolio  h2{
+    margin: 30px 0px;
+    padding: 0px 10%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.portfolio img{
+    border-radius: 20px;
+    width: 470px;
+    max-width: 81vw;
+    max-height: 47vw;
+    height: 260px;
+}
+
+.portfolio img:hover{
+    box-shadow: 7px 7px 14px#696969,
+                -7px -7px 14px #adadad;
+}
+
+.rowreverse{
+    flex-direction: row-reverse;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img{
+    max-width: 91%;
+}
+
+@media screen and (max-width:1000px) {
+    .flexdesktop{
+        display: block;
+    }
+}
