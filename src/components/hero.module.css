@@ -5,7 +5,7 @@
 
 .hero{
     background: url(../img/bg1.png) left top no-repeat, url(../img/bg1.png) right bottom no-repeat;
-    background-size: 45vw, 40vw;
+    background-size: 35vw, 30vw;
     height: 90vh;
     color: white;
 }

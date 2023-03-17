@@ -1,6 +1,5 @@
 .wrapdiv{
     color: white;
-    background: url(../img/bgcontact.png) right bottom no-repeat;
     background-size: 50vw;
     padding: 7.5vh 5vw;
     width: 90vw;
@@ -35,7 +34,7 @@
     border-radius: 30px;
     display: flex;
     justify-content: space-evenly;
-    padding: 10vh 5%;
+    padding: 6vh 5%;
 }
 
 .main div{
@@ -53,10 +52,11 @@
     max-width: 80vw;
     box-shadow: 0px 10px 20px rgba(13, 14, 45, 0.15);
     border-radius: 10px;
-    font-size: 13px;
-    margin: 5px 0px;
+    font-size: 14px;
+    margin: 10px 0px;
     margin-bottom: 10px;
-    padding: 10px 20px;
+    padding: 15px 20px;
+    color: white;
     outline: none;
     border: none;
 }
@@ -75,23 +75,24 @@
 
 
 .main button{
-    background: linear-gradient(96.28deg, rgba(108, 27, 147, 0.8) 21.68%, rgba(249, 8, 254, 0) 103.35%);
     filter: drop-shadow(0px 10px 20px rgba(13, 14, 45, 0.15));
+    background-color: grey;
     outline: none;
     border: 1px solid #ff70f0;
-    color: grey;
+    color: white;
     border-radius: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
     transition: all 0.3s ease-out;
     padding: 10px 20px;
 }
 
 .main button:hover{
-    background-color: white;
-    color: black;
+    color: #ff70f0;
 }
 
 .main button:active{
-    color: #ff70f0;
     background-color: white;
     border: 1px solid black;
 }
@@ -106,6 +107,11 @@
         background: none;
         padding-top: 20px;
         background-color: black;
+    }
+    
+    .main div {
+        margin: auto;
+        width: fit-content;
     }
 
     .main{

@@ -10,14 +10,14 @@
     margin-top: -140px;
     color: white;
     background-color: rgb(255, 255, 255, 0.9); 
-    animation: pulse 1s ease-in-out infinite; 
+    animation: pulse 0.9s ease-in-out infinite; 
   }
   
   .text {
     font-family: 'YourFeminineFont', cursive; 
-    font-size: 36px; 
+    font-size: 30px; 
     color: #ff70f0; 
-    animation: appear 1s linear; 
+    animation: appear 0.5s linear; 
   }
 
   .preloader-container.show {

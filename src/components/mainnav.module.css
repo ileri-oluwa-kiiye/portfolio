@@ -75,8 +75,8 @@ li{
 
     .nav li{
         border-right: none;
-        border-top: 1px solid rgba(255, 255, 255, 0.543);
-        padding: 10px 20px;
+        border-top: 0.5px solid rgba(255, 255, 255, 0.243);
+        padding: 12px 30px;
         cursor: pointer;
         color: white;
     }
@@ -97,7 +97,7 @@ li{
     }
 
     .nav nav:hover{
-        height: 230px;
+        height: 240px;
         width: 120px;
         max-width: 100vw;
         transition: all 0.4s ease-in-out;

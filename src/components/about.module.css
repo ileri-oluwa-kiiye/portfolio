@@ -31,18 +31,18 @@
 .about .content{
     max-width: 83vw;
     width: 350px;
-    font-size: 15px;
-    letter-spacing: 0.1em;
-    font-family: cursive;
-    line-height: 23px;
+    font-size: 18px;
+    line-height: 27px;
     padding: 60px 60px ;
+    color: rgba(255, 255, 255, 0.7);
     text-align: left;
 }
 
 
 @media screen and (max-width:700px) {
     .about .content{
-        font-size: 13px;
+        font-size: 14px;
+        line-height: 25px;
         padding: 30px ;
     }
 

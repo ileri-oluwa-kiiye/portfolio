@@ -12,7 +12,7 @@ const Projectpage = () =>{
             <section className="portfolio">
                 <div className="controlwidth">
                     <h2 data-aos="zoom-in" data-aos-duration="2000">
-                        SOME OF THE PROJECTS I'VE WORKED ON
+                        PROJECTS
                     </h2>
                     <div>
                         <div className="flexdesktop">
