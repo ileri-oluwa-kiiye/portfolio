@@ -44,7 +44,6 @@ li{
 }
 
 .nav nav{
-    background-color: rgb(0, 0, 0, 0.4);
     margin-top: 10px;
     border-radius: 20px;
     width: 90vw;
@@ -108,7 +107,7 @@ li{
         border-top: none;
         position: fixed;
         top: 6vh;
-        right: 10px;
+        right: 1px;
     }
 
     .nav nav ul div{

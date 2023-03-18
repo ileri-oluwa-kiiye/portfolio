@@ -5,7 +5,7 @@
 
 .hero{
     background: url(../img/bg1.png) left top no-repeat, url(../img/bg1.png) right bottom no-repeat;
-    background-size: 35vw, 30vw;
+    background-size: 30vw, 30vw;
     height: 90vh;
     color: white;
 }
@@ -103,6 +103,7 @@
 
 @media screen  and (max-width:500px){
     .hero{
-        background-size: 80vw, 100vw;
+        background: url(../img/bg1.png) left top no-repeat, url(../img/bg1.png) right bottom no-repeat;
+        background-size: 36vh, 39vw;
     }
 }

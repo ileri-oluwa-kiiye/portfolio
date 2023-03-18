@@ -25,14 +25,16 @@ const Contactpage = () =>{
 
                         </div>
                         <div>
-                            <h2>Send me a message</h2>
-                            <input type="text" placeholder="Name" name="name" />
-                            <input type="email" placeholder="Email" name="email" />
-                            <input type="text" placeholder="Subject" name="subject" />
-                            <textarea placeholder="Message"></textarea>
-                            <div className={styles.button}>
-                                <button>Send Message</button>
-                            </div>
+                            <form action="https://getform.io/f/523511a3-4256-490b-9cbd-4c8002b0467a" method="POST">
+                                <h2>Send me a message</h2>
+                                <input type="text" placeholder="Name" name="name" />
+                                <input type="email" placeholder="Email" name="email" />
+                                <input type="text" placeholder="Subject" name="subject" />
+                                <textarea placeholder="Message" name="Message"></textarea>
+                                <div className={styles.button}>
+                                    <button>Send Message</button>
+                                </div>
+                            </form>
                         </div>
                     </div>
                     <div><Footer /></div>
