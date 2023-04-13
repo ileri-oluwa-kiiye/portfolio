@@ -5,6 +5,7 @@ import fintraka from "../img/projects/fintraka.png"
 import ecommerce from "../img/projects/ecommerce.png"
 import questio from "../img/projects/questio.png"
 import todo from "../img/projects/todo.png"
+import writeit from "../img/projects/write-itt.png"
 
 const Projectpage = () =>{
     return(
@@ -15,6 +16,22 @@ const Projectpage = () =>{
                         PROJECTS
                     </h2>
                     <div>
+                        <div className="flexdesktop rowreverse">
+                            <div>
+                                <h3 data-aos="zoom-in"  data-aos-duration="1000">Write-it</h3>
+                                <p data-aos="zoom-in"  data-aos-duration="1000">
+                                    Hashnode inspired: This site is for Christians to share their experiences of how they dealt with sin one way or the other. <br/>
+                                    Technologies utilized: HTML, CSS, Git $ GitHub, Terminal.
+                                </p>
+                                <p>
+                                    <a href="https://write-itt.netlify.app/" target={"_blank"} rel="noreferrer">LIVE SITE</a>
+                                    <a href="https://github.com/ileri-oluwa-kiiye/write-it">SOURCE CODE</a>
+                                </p>
+                            </div>
+                            <div>
+                                <img src={writeit} alt="Invest Smart" data-aos="zoom-in" data-aos-duration="2000"/>
+                            </div>
+                        </div>
                         <div className="flexdesktop">
                             <div>
                                 <h3 data-aos="zoom-in"  data-aos-duration="1000">Crappo App</h3>
