@@ -12,8 +12,8 @@ const Hero = () => {
                         <h1>Hi, I am <br/>Abolade Ilerioluwakiiye</h1>
                         <h4>Frontend Developer</h4>
                         <div className={styles.button}>
-                            <Link to="/projects" style={{color:'inherit', textDecoration: 'none'}}><button className={styles.first}>View my work <img src={view} alt="" /></button></Link>
-                            <Link to="/contact" style={{color:'inherit', textDecoration: 'none'}}><button>Contact Me</button></Link>
+                            <Link to="/projects" style={{color:'inherit', textDecoration: 'none'}}><button className={styles.first}>My Projects <img src={view} alt="" /></button></Link>
+                            <a href="https://drive.google.com/file/d/1nX47Sgwc6NYSMxWxUAWMM1U1F3EOr6JC/view?usp=drive_link" style={{color:'inherit', textDecoration: 'none'}}><button>View Resume</button></a>
                         </div>
                     </div>
                 </div>
